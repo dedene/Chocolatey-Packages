@@ -3,12 +3,12 @@
   <metadata>
     <id>talosctl</id>
     <version>1.3.6</version>
-    <packageSourceUrl>https://github.com/dedene/Chocolatey-Packages/tree/main/talos-cli</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dedene/Chocolatey-Packages/tree/main/talosctl</packageSourceUrl>
     <authors>Sidero Labs</authors>
     <owners>dedene</owners>
     <title>talosctl (Install)</title>
     <projectUrl>https://talos.dev/</projectUrl>
-    <iconUrl>https://avatars.githubusercontent.com/u/13804887?s=200&amp;v=4</iconUrl>
+    <iconUrl>https://www.talos.dev/images/logo.svg</iconUrl>
     <copyright>© 2023 Sidero Labs</copyright>
     <licenseUrl>https://github.com/siderolabs/talos/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
