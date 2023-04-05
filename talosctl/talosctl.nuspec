@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>talosctl</id>
+    <version>1.3.6</version>
+    <packageSourceUrl>https://github.com/dedene/Chocolatey-Packages/tree/main/talos-cli</packageSourceUrl>
+    <authors>Sidero Labs</authors>
+    <owners>dedene</owners>
+    <title>talosctl (Install)</title>
+    <projectUrl>https://talos.dev/</projectUrl>
+    <iconUrl>https://avatars.githubusercontent.com/u/13804887?s=200&amp;v=4</iconUrl>
+    <copyright>© 2023 Sidero Labs</copyright>
+    <licenseUrl>https://github.com/siderolabs/talos/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/siderolabs/talos</projectSourceUrl>
+    <docsUrl>https://www.talos.dev/v1.3/reference/cli/</docsUrl>
+    <tags>talosctl talos cli kubernetes k8s</tags>
+    <summary>Talos CLI</summary>
+    <description>CLI for out-of-band management of Kubernetes nodes created by Talos</description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
