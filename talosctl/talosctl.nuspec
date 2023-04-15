@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>talosctl</id>
-    <version>1.3.6</version>
-    <packageSourceUrl>https://github.com/dedene/Chocolatey-Packages/tree/main/talosctl</packageSourceUrl>
+    <version>1.3.7</version>
+    <packageSourceUrl>https://github.com/dedene/chocolatey-packages/tree/main/talosctl</packageSourceUrl>
     <authors>Sidero Labs</authors>
     <owners>dedene</owners>
     <title>talosctl (Install)</title>
