@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$url64 = 'https://github.com/siderolabs/talos/releases/download/v1.4.1/talosctl-windows-amd64.exe'
-$checksum64 = 'f35b0109380173e5171561f5e5b855728a8f7b1966db07dcfa02c4762035142e9e7554aa8f9759ac236b7770d50d106d0eaaf63052eb6bd6b8d16be19189c817'
+$url64 = 'https://github.com/siderolabs/talos/releases/download/v1.4.5/talosctl-windows-amd64.exe'
+$checksum64 = 'f58bd796677aabcddbb8e35a810cf1d90f69ab86f4917233bfc3c7bf22dc9be6ecb1636f9ead8e9d96c5dd82b48d8602274e2b1120875a7b0300e0018fb9397b'
 $checksumType64 = 'sha512'
 $File = Join-Path (Join-Path $env:ChocolateyInstall (Join-Path 'lib' $env:ChocolateyPackageName)) 'talosctl.exe'
 $file = Get-ChocolateyWebFile -PackageName $env:ChocolateyPackageName `
